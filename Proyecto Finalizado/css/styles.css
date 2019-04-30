@@ -117,9 +117,10 @@ h4 {
     padding-top: 3rem;
 }
 @media (min-width: 768px) {
-    .barra {
-        display: flex;
-        justify-content: space-between;
+    .barra { /*la barra son el logo y el menu de navegacion*/
+        display: flex; /*El flex box colocaun elemento al lado del otro*/
+        justify-content: space-between; /*devide los 2 flex 
+        en partes proporcionales*/
         align-items: center;
     }
 }
@@ -135,7 +136,9 @@ h4 {
     .navegacion a {
         display: inline-block;
         font-size: 1.8rem; /** = 18px **/
-        margin-right: 2rem;
+        margin-right:2rem; 
+        
+        
     }
     .navegacion a:last-of-type {
         margin: 0;
